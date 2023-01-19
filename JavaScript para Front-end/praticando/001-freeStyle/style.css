@@ -1,0 +1,27 @@
+.calculadora {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculadora .painel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gainsboro;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.calculadora .painel .visor{
+    border: none;
+    width: 100%;
+    height: 100%;
+    background-color: gainsboro;
+    text-align: center;
+}
