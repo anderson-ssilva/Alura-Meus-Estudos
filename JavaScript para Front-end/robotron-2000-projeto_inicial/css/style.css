@@ -131,6 +131,71 @@ main {
     border-color: var(--main-cinza);
 }
 
+.iniciar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.cor-robotron{
+    margin-top: 1em;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    padding: 0.2em 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cor-robotron .amarelo{
+    background-color: yellow;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.cor-robotron .azul{
+    background-color: blue;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.cor-robotron .branco{
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.cor-robotron .preto{
+    background-color: black;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.cor-robotron .rosa{
+    background-color: pink;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.cor-robotron .vermelho{
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
 .producao {
     margin-top: 1em;
     font-size: 2em;
