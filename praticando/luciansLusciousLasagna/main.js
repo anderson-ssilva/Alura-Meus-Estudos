@@ -1,9 +1,7 @@
-const expecteMinutesInOven = 40
-
-function remainingMinutesInOven (currentTime) {
-    return expecteMinutesInOven - currentTime
+function divResto (a, b) {
+    const resultado = a % b
+    return console.log(resultado)
 }
 
-function preparationTimeInMinutes (numberOfLayers) {
-    return numberOfLayers * 2
-}
+divResto(230, 22)
+

@@ -5,27 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="src/css/reset.css">
-    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/styles/reset.css">
+    <link rel="stylesheet" href="src/styles/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
     
     <title>Portifólio</title>
 </head>
 <body>
-    <header>
-        <main>
-            <h1>Eleve seu negócio digital a outro nível <strong class="titulo-destaque"> com um Front-end de qualidade!</strong></h1>
-
-            <p>Olá! Sou Anderson Silva, desenvolvedor Front-end com especialidade em React, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
-
-            <a href="#">Instagram</a>
-
-            <a href="#">Github</a>
-
-            <img src="src/image/Imagem.png" alt="Foto Anderson S Silva">
-        </main>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a href="#" class="cabecalho__menu__link">Home</a>
+            <a href="about.htm" class="cabecalho__menu__link" target="_blank">Sobre mim</a>
+            
+        </nav>
     </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong class="titulo-destaque"> com um Front-end de qualidade!</strong></h1>
 
-    <footer></footer>
-    
+            <p class="apresentacao__conteudo__paragrafo">Olá! Sou Anderson Silva, desenvolvedor Front-end com especialidade em React, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
+
+            <div class="apresentacao__links">
+                <h3 class="apresentacao__links_titulo">Acesse minhas redes</h3>
+                <a href="https://github.com/anderson-ssilva" class="apresentacao__links_link" target="_blank">
+                    <img src="src/assets/github.png" alt="icone Github">
+                        Github
+                </a>
+
+                <a href="https://www.linkedin.com/feed/" class="apresentacao__links_link" target="_blank">
+                    <img src="src/assets/linkedin.png" alt="icone Linkedin">
+                        Linkedin
+                </a>
+
+                <!-- <a href="https://www.instagram.com/andersondssilva/" class="apresentacao__links_link" target="bla">
+                    <img src="src/image/instagram.png" alt="icone Linkedin">
+                        Instagram
+                </a> -->
+            </div>
+        </section>
+
+        <img class="apresentacao__img__imagem" src="src/assets/Imagem.png" alt="Foto Anderson S Silva">
+    </main>  
+    <footer class="rodape">
+        <h4 class="rodape__paragrafo">Desenvolvido por Anderson Silva.</h4>
+    </footer>    
 </body>
 </html>

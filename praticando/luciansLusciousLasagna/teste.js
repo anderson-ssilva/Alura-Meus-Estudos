@@ -1,5 +1,5 @@
-function daysInBudget(budget, ratePerHour) {
-  return Math.floor(budget/(ratePerHour/8));
+function backDoorResponse(line) {
+  return console.log(line.trim().length)
 }
 
-console.log(daysInBudget(1280, 16))
+backDoorResponse('and   ')
