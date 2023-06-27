@@ -26,6 +26,7 @@ body {
     color: var(--cor-secundaria);
     font-size: 1.5rem;
     font-weight: 600;
+    height: 100%;
 }
 
 .cabecalho__menu {
@@ -49,7 +50,7 @@ body {
 }
 
 .apresentacao__conteudo {
-    width: 615px;
+    width: 50%;
     height: 482px;
     display: flex;
     flex-direction: column;
@@ -58,7 +59,7 @@ body {
 
 .apresentacao__conteudo__titulo {
     font-family: var(--font-primaria);
-    font-size: 2.25rem;
+    font-size: 2.5rem;
 }
 
 .apresentacao__conteudo__paragrafo {
@@ -118,4 +119,10 @@ body {
     font-family: var(--font-secundaria);
     font-size: 1.5rem;
     font-weight: 400;
+}
+
+@media(max-width: 1020px) {
+    .apresentacao {
+        flex-direction: column-reverse;
+    }
 }
